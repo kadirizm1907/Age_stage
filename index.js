@@ -29,3 +29,12 @@ else {
 return age
 }
 stageAge()
+// let result = stageAge();
+// document.getElementById("btnSearch").innerHTML= +result;
+
+function enterAge(){
+  return 
+}
+enterAge()
+
+// document.getElementById("info-search").innerHTML = console.log(function stageAge());

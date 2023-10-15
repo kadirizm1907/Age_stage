@@ -14,11 +14,11 @@
      <div class="screeninf">
         <p id="stage-id">Want to learn your stage(AGE)?</p>
 
-        <p id="info-search">999</p>
+        <p oninput="enterAge()" id="info-search"></p>
      </div>
     <div class="btn">
-        <button onclick="myFunction()">SEARCH</button>
-        <button onclick="newCard()">AGAIN</button>
+        <button id="btnSearch" onclick="stageAge()">SEARCH</button>
+        <button id="btnNew" onclick="newCard()">AGAIN</button>
     </div>
     <div class="results">
         <p id="infancy">Your ages stage is infancy. <i class="em em-baby" aria-role="presentation" aria-label="BABY"></i><a href="https://en.wikipedia.org/wiki/Infant" target="_blank"> More info...</a>
