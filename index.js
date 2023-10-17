@@ -7,9 +7,9 @@ document.addEventListener("DOMContentLoaded", function() {
       const age = parseInt(ageInput.value);
 
       if (isNaN(age)) {
-          resultText.textContent = "Please enter your age.";
+          resultText.innerHTML = "Please enter your age.";
       } else if (age < 0 || age > 130) {
-          resultText.textContent = "Unsupported Number.";
+          resultText.innerHTML = "Unsupported Number.";
       } else if (age < 2) {
           resultText.innerHTML = '<a href="https://en.wikipedia.org/wiki/Infant" target="_blank">Your ages stage is INFANCY. Click for more... </a>';
       } else if (age >= 2 && age < 3) {
