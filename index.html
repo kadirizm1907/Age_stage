@@ -9,18 +9,24 @@
     <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
 </head>
 <body>
-<div id="container">
+    <div id="container">
         <h1>Erikson’s Ages and Stages:</h1>
-     <form class="screeninf">
-        <label id="stage-id">Want to learn your stage(AGE)?</label>
-        <input id="info-search" type="text"  oninput="enterAge()"></input>
-    <div id="button">
-        <input value="SEARCH" type="submit" value="Submit" name="search"></input>
-        <input value="AGAIN" type="reset" value="Reset"></input>
-       
+        <form class="screeninf">
+            <label for="age">Want to learn your stage (AGE)?</label>
+            <input id="age" type="number" min="0">
+            <div id="button">
+                <button id="btn-search" onclick="">SEARCH</button>
+                <button type="reset" id="reset-button">AGAIN</button>
+            </div>
+        </form>
+        <div id="result">
+            <p id="result-text"></p>
+        </div>
     </div>
-    </form>
-    <div class="results" style="display: none;"">
+    
+   
+    
+    <div class="results" >
         <p id="infancy">Your ages stage is infancy. <i class="em em-baby" aria-role="presentation" aria-label="BABY"></i><a href="https://en.wikipedia.org/wiki/Infant" target="_blank"> More info...</a>
         </p>
         <p id="earlyChildhood">
