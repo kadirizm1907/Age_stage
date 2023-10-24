@@ -1,3 +1,2 @@
-# 21game
+Age stages
 
-https://nsakdag.github.io/21game/
